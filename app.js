@@ -13,7 +13,7 @@ function checkSignature(req) {
   var nonce = req.query.nonce;
  
   // 此处为实验分配了一个 token，也可以修改为自己的 token
-  var token = '4KqWvQEazfjewjeroweirwer2425435388rafafa';
+  var token = '4KqWvQEazfjewj';
  
   // 按照字典排序
   var params = [token, timestamp, nonce];
